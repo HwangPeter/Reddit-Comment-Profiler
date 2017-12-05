@@ -13,7 +13,7 @@ f = open('Comments.txt','w')
 user = reddit.redditor('nowwhathappenedwas')
 
 for comment in user.comments.new(limit=None):
-    print("||", file = f)
+    print("|||", file = f)
     print(comment.subreddit, file = f)
     print(comment.score, file = f)
     print(comment.body, file = f)
