@@ -1,5 +1,6 @@
 # Reddit-Comment-Profiler
 Required Files: main.py, profiler.cpp, clean.h, vectorize.h
+Requires C++11 and Python
 
 To run: 
 1. Enter the username of the redditor you want to input on line 13 of main.py. Ex. user = reddit.redditor('username')
