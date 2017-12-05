@@ -5,7 +5,6 @@
 #include <vector>
 #include "clean.h"
 #include "vectorize.h"
-#include "python/Python.h"
 
 std::vector<word> find_top(std::vector<std::vector<word>> &matrix);
 bool cmp_count(word &w1, word &w2);
