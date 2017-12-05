@@ -102,6 +102,8 @@ void print_top5_subs(std::vector<word> &top)
 	std::cout << "Top 5 subreddits:\n";
 	for(int i=0; i<top.size() && i<5; i++)
 	{
+		if(top[i].sub.subr.empty())
+			break;
 		std::cout << i+1 << ". Subreddit:" << top[i].sub.subr << "\nKarma: " << top[i].karma;
 		std::cout << "      # of comments: " << top[i].sub.cmt_count;
 		std::cout << std::endl;
